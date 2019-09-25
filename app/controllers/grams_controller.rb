@@ -9,7 +9,7 @@ class GramsController < ApplicationController
 
   def create
     @gram = Gram.create(gram_params)
-    redirect_to root_path
+    redirect_to root_pathhow long
   end
 
   private
